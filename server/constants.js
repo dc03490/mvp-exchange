@@ -1,6 +1,6 @@
 'use strict';
 
-const SUPPORT_EMAIL = 'support@email.com';
+const SUPPORT_EMAIL = 'darrell@liquex.io';
 const NOREPLY_EMAIL = 'no-reply@email.com';
 const DOMAIN = 'trade.multicoins.org';
 
@@ -24,8 +24,8 @@ exports.share = {
    
    my_portSSL: 40443,
    
-   TRADE_MAIN_COIN: "Marycoin",
-   TRADE_MAIN_COIN_TICKER: "MC",
+   TRADE_MAIN_COIN: "Liquex",
+   TRADE_MAIN_COIN_TICKER: "LQX",
    TRADE_DEFAULT_PAIR: "Litecoin"
 };
 
@@ -33,7 +33,7 @@ exports.my_port = process.env.PORT || 40080;
 
 exports.SESSION_TIME = 3600*1000; //one hour
 
-exports.recaptcha_pub_key = "6LeX5SQUAAAAAKTieM68Sz4MECO6kJXsSR7_sGP1";
+exports.recaptcha_pub_key = "6LcgmXUUAAAAAFMtNn9lXt_ags0QwgB3mV_QZurU";
 const MAX_IP_CONNECTIONS = 100;
 
 const MAX_USER_WITHDRAW = 100; //Percentage from trade deposit
